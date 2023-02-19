@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E63B321429A289BA00759AEA /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B321329A289BA00759AEA /* NavigationViewController.swift */; };
+		E694775D29A2D88F00094F73 /* converterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E694775C29A2D88F00094F73 /* converterLogic.swift */; };
 		E6E3B99629A27E9F00CC9FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E3B99529A27E9F00CC9FCA /* AppDelegate.swift */; };
 		E6E3B99829A27E9F00CC9FCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E3B99729A27E9F00CC9FCA /* SceneDelegate.swift */; };
 		E6E3B99A29A27E9F00CC9FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E3B99929A27E9F00CC9FCA /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E63B321329A289BA00759AEA /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		E694775C29A2D88F00094F73 /* converterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = converterLogic.swift; sourceTree = "<group>"; };
 		E6E3B99229A27E9F00CC9FCA /* project5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E3B99529A27E9F00CC9FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6E3B99729A27E9F00CC9FCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E694775E29A2D8A200094F73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E694775C29A2D88F00094F73 /* converterLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E6E3B98929A27E9F00CC9FCA = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 			children = (
 				E6E3B99529A27E9F00CC9FCA /* AppDelegate.swift */,
 				E6E3B99729A27E9F00CC9FCA /* SceneDelegate.swift */,
+				E694775E29A2D8A200094F73 /* Model */,
 				E694775B29A2D3CD00094F73 /* View */,
 				E6E3B99B29A27E9F00CC9FCA /* Main.storyboard */,
 				E6E3B99E29A27EA100CC9FCA /* Assets.xcassets */,
@@ -152,6 +163,7 @@
 				E63B321429A289BA00759AEA /* NavigationViewController.swift in Sources */,
 				E6E3B99A29A27E9F00CC9FCA /* ViewController.swift in Sources */,
 				E6E3B99629A27E9F00CC9FCA /* AppDelegate.swift in Sources */,
+				E694775D29A2D88F00094F73 /* converterLogic.swift in Sources */,
 				E6E3B99829A27E9F00CC9FCA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

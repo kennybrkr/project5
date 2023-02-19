@@ -2,7 +2,7 @@
 //  NavigationViewController.swift
 //  project5
 //
-//  Created by Wendy Barker on 2/19/23.
+//  Created by Kenneth Barker on 2/19/23.
 //
 
 import UIKit
@@ -13,13 +13,9 @@ import UIKit
 class NavigationViewController: UIViewController {
 
     @IBOutlet weak var usdLabel: UILabel!
-    
     @IBOutlet weak var euroLabel: UILabel!
-    
     @IBOutlet weak var yenLabel: UILabel!
-    
     @IBOutlet weak var poundLabel: UILabel!
-    
     @IBOutlet weak var sheckleLabel: UILabel!
     
     var usd = ""
@@ -27,6 +23,7 @@ class NavigationViewController: UIViewController {
     var yen = ""
     var poundM = ""
     var sheckle = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
